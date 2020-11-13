@@ -1,3 +1,7 @@
+#1. add migrations: rake db:create_migration NAME=actors
+#2. associations
+#3. follow read me!! do not need the extra methods at end will cause errors
+
 require 'pry'
 class Actor < ActiveRecord::Base
   has_many :characters
